@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block 'title' %}Django Starter | Page One{% endblock %}
+
+{% block 'content' %}
+
+<div class="container">
+    This is page one and it is extending base.html file
+</div>
+
+{% endblock %}
+
+{% block 'js' %}
+<script src='{% static "js/one.js" %}'></script>
+{% endblock %}
